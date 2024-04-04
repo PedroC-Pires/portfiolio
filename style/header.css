@@ -1,0 +1,60 @@
+header{
+    max-width: calc(100vw - 4rem);
+    width: fit-content;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    height: 50px;
+    border-radius: 25px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+header button{
+    border: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #333;
+    animation: ease-in-out;
+    transition: 300ms;
+}
+
+header button:hover{
+    letter-spacing: 4px;
+}
+
+header button:nth-child(1):hover{
+    color: #000000;
+    font-weight: 600;
+}
+
+header button:nth-child(2):hover{
+    color: #6900be;
+    font-weight: 600;
+}
+
+header button:nth-child(3):hover{
+    color: #a83500;
+    font-weight: 600;
+}
+
+header button:nth-child(4):hover{
+    color: #d40000;
+    font-weight: 600;
+}
+
+header button:nth-child(5):hover{
+    color: #1200b4;
+    font-weight: 600;
+}
+
+header button:nth-child(6):hover{
+    color: #00b43c;
+    font-weight: 600;
+}
