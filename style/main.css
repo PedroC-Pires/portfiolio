@@ -23,6 +23,7 @@ th{
     background-color: #AFC1D0;
     color: #000;
     border-radius: 12px;
+    width: calc((60vw - 6rem) / 8);
 }
 th, td{
     padding: 8px;
