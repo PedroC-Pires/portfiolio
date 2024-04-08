@@ -14,33 +14,3 @@ section{
     margin-bottom: 2rem;
     padding: 3rem;
 }
-
-table{
-    width: 100%;
-}
-
-th{
-    background-color: #AFC1D0;
-    color: #000;
-    border-radius: 12px;
-    width: calc((60vw - 6rem) / 8);
-}
-th, td{
-    padding: 8px;
-    font-size: 1.2vw;
-    text-align: center;
-}
-
-.CV{
-    width: 40%;
-    border-radius: 12px;
-    animation: ease-in-out;
-    transition: 500ms;
-    position: relative;
-    left: 0px;
-}
-
-.CV:hover{
-    width: 80%;
-    left: 10%;
-}
