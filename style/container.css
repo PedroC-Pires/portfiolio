@@ -8,8 +8,8 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    min-width: 300px;
-    flex: 1 0 300px;
+    min-width: 200px;
+    flex: 1 0 200px;
     text-align: center;
 }
 
@@ -22,19 +22,25 @@
 }
 
 table{
-    width: 100%;
+    max-width: 100%;
 }
 
 th{
     background-color: #AFC1D0;
     color: #000;
     border-radius: 12px;
-    width: calc((60vw - 6rem) / 8);
+    width: calc((60vw - 6rem) / 6);
 }
 th, td{
-    padding: 8px;
-    font-size: 1.2vw;
+    font-size: 1rem;
+    padding: 0.8vw;
     text-align: center;
+}
+
+td{
+    color: #000;
+    background-color: #ffffffa0;
+    border-radius: 12px;
 }
 
 .CV{
@@ -47,6 +53,5 @@ th, td{
 }
 
 .CV:hover{
-    width: 80%;
-    left: 10%;
+    width: 100%;
 }

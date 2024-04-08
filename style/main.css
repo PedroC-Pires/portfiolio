@@ -8,9 +8,9 @@ main{
 section{
     width: 60vw;
     border-radius: 25px;
-    background: #e0e0e0;
-    box-shadow:  20px 20px 60px #bebebe,
-                -20px -20px 60px #ffffff;
+    background: #e0e0e0e6;
+    box-shadow:  20px 20px 60px #bebebe66,
+                -20px -20px 60px #ffffff66;
     margin-bottom: 2rem;
     padding: 3rem;
 }
