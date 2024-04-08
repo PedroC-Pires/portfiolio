@@ -1,5 +1,5 @@
 header{
-    width: 800px;
+    width: 60vw;
     padding-left: 3rem;
     padding-right: 3rem;
     height: 50px;
@@ -11,14 +11,14 @@ header{
     margin-top: 2rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-around;
+    margin-bottom: 4rem;
 }
 
 header button{
     border: none;
     background: none;
-    font-size: 1.2rem;
+    font-size: 1.4vw;
     color: #333;
     animation: ease-in-out;
     transition: 300ms;
@@ -34,26 +34,26 @@ header button:nth-child(1):hover{
 }
 
 header button:nth-child(2):hover{
-    color: #6900be;
+    color: #ff7300;
     font-weight: 600;
 }
 
 header button:nth-child(3):hover{
-    color: #a83500;
+    color: #ff0000;
     font-weight: 600;
 }
 
 header button:nth-child(4):hover{
-    color: #d40000;
+    color: #2009f3;
     font-weight: 600;
 }
 
 header button:nth-child(5):hover{
-    color: #1200b4;
+    color: #00ca0a;
     font-weight: 600;
 }
 
 header button:nth-child(6):hover{
-    color: #00b43c;
+    color: #398ae7;
     font-weight: 600;
 }

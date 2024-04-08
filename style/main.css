@@ -6,11 +6,40 @@ main{
 }
 
 section{
-    width: 800px;
+    width: 60vw;
     border-radius: 25px;
     background: #e0e0e0;
     box-shadow:  20px 20px 60px #bebebe,
                 -20px -20px 60px #ffffff;
-    margin-top: 5rem;
+    margin-bottom: 2rem;
     padding: 3rem;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    background-color: #AFC1D0;
+    color: #000;
+    border-radius: 12px;
+}
+th, td{
+    padding: 8px;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.CV{
+    width: 40%;
+    border-radius: 12px;
+    animation: ease-in-out;
+    transition: 500ms;
+    position: relative;
+    left: 0px;
+}
+
+.CV:hover{
+    width: 80%;
+    left: 10%;
 }
