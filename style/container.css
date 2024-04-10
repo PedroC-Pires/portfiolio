@@ -30,8 +30,8 @@ table{
 }
 
 th{
-    background-color: var(--lightblue);
-    color: black;
+    background-color: var(--darkblue);
+    color: white;
     border-radius: 12px;
     width: calc((60vw - 6rem) / 6);
 }
