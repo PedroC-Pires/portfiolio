@@ -1,11 +1,12 @@
+/* HEADER STYLING */
 header{
     width: 60vw;
     padding-left: 3rem;
     padding-right: 3rem;
     border-radius: 25px;
-    background: #e0e0e0e6;
-    box-shadow:  20px 20px 60px #bebebe66,
-                -20px -20px 60px #ffffff66;
+    background: var(--bgcolor);
+    box-shadow:  20px 20px 60px var(--shadow1),
+                -20px -20px 60px var(--shadow2);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -59,3 +60,4 @@ header button:nth-child(6):hover{
     color: #00a2ff;
     font-weight: 600;
 }
+/* END HEADER STYLING */

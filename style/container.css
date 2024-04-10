@@ -1,3 +1,4 @@
+/* CONTAINER CLASS STYLING */
 .container{
     display: flex;
     flex-direction: row;
@@ -14,20 +15,23 @@
 }
 
 .container div a:link{
-    color: #4577a0;
+    color: var(--darkblue);
 }
 
 .container div a:visited{
-    color: #4577a0;
+    color: var(--darkblue);
 }
+/* END CONTAINER CLASS STYLING */
 
+
+/* TABLE STYLING */
 table{
     max-width: 100%;
 }
 
 th{
-    background-color: #AFC1D0;
-    color: #000;
+    background-color: var(--lightblue);
+    color: black;
     border-radius: 12px;
     width: calc((60vw - 6rem) / 6);
 }
@@ -38,11 +42,14 @@ th, td{
 }
 
 td{
-    color: #000;
-    background-color: #ffffffa0;
+    color: black;
+    background-color: var(--lightblue);
     border-radius: 12px;
 }
+/* END TABLE STYLING */
 
+
+/* CURRICULUM VITAE STYLING */
 .CV{
     width: 40%;
     border-radius: 12px;
@@ -55,3 +62,4 @@ td{
 .CV:hover{
     width: 100%;
 }
+/* END CURRICULUM VITAE STYLING */

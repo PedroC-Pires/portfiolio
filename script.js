@@ -7,6 +7,6 @@ function bgScroll() {
 
     document.body.style.backgroundPositionY = scrollPosPercentage + "%";
     
-    setTimeout(bgScroll, 5);
+    setTimeout(bgScroll, 10);
 }
 bgScroll()

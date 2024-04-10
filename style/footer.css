@@ -1,12 +1,13 @@
+/* FOOTER STYLING */
 footer{
     width: 60vw;
     padding-left: 3rem;
     padding-right: 3rem;
     min-height: 50px;
     border-radius: 25px;
-    background: #e0e0e0e6;
-    box-shadow:  20px 20px 60px #bebebe66,
-                -20px -20px 60px #ffffff66;
+    background: var(--bgcolor);
+    box-shadow:  20px 20px 60px var(--shadow1),
+                -20px -20px 60px var(--shadow2);
     margin: auto;
     margin-top: 2rem;
     display: flex;
@@ -37,15 +38,16 @@ footer div div p{
 }
 
 footer div div a:link{
-    color: #4577a0;
+    color: var(--darkblue);
     font-weight: 600;
 }
 
 footer div div a:visited{
-    color: #4577a0;
+    color: var(--darkblue);
     font-weight: 600;
 }
 
 footer h1{
     font-size: 1.5rem;
 }
+/* END FOOTER STYLING */
