@@ -33,7 +33,6 @@ body{
     margin: 0;
     padding: 0;
     animation: ease-in-out;
-    animation-delay: 2000ms;
-    transition: 2000ms;
+    transition: 1000ms;
 }
 /* END BODY STYLING */

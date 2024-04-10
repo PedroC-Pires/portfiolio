@@ -49,17 +49,18 @@ td{
 /* END TABLE STYLING */
 
 
-/* CURRICULUM VITAE STYLING */
+/* CV STYLING */
 .CV{
     width: 40%;
     border-radius: 12px;
     animation: ease-in-out;
-    transition: 500ms;
+    transition: 1000ms;
     position: relative;
-    left: 0px;
+    left: 0;
 }
 
 .CV:hover{
-    width: 100%;
+    width: 80%;
+    left: 10%;
 }
-/* END CURRICULUM VITAE STYLING */
+/* END CV STYLING */
