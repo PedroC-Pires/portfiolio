@@ -31,7 +31,7 @@ table{
 
 th{
     background-color: var(--darkblue);
-    color: white;
+    color: var(--white);
     border-radius: 12px;
     width: calc((60vw - 6rem) / 6);
 }
@@ -42,7 +42,7 @@ th, td{
 }
 
 td{
-    color: black;
+    color: var(--black);
     background-color: var(--lightblue);
     border-radius: 12px;
 }

@@ -13,6 +13,14 @@
     --bgcolor: #e0e0e0e6;
     --darkblue:  #4577a0;
     --lightblue: #AFC1D0;
+    --white:     #ffffff;
+    --black:     #000000;
+
+    --humanas:   #ff9900;
+    --linguagens:#ff0000;
+    --matematica:#6e6cff;
+    --natureza:  #00ca0a;
+    --tecnico:   #00a2ff;
 }
 /* END VARIABLES */
 
@@ -23,10 +31,9 @@
 }
 /* END ALL ELEMENT STYLING */
 
-
 /* BODY STYLING */
 body{
-    background-image: url(../img/bg2.png);
+    background-image: url(../img/bgnighttime.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,3 +42,7 @@ body{
     animation: ease-in-out;
 }
 /* END BODY STYLING */
+
+section p, section h1{
+    color: var(--black);
+}
