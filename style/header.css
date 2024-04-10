@@ -60,4 +60,8 @@ header button:nth-child(6):hover{
     color: var(--tecnico);
     font-weight: 600;
 }
+
+#themeIcon{
+    cursor: pointer;
+}
 /* END HEADER STYLING */

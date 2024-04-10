@@ -42,7 +42,3 @@ body{
     animation: ease-in-out;
 }
 /* END BODY STYLING */
-
-section p, section h1{
-    color: var(--black);
-}
