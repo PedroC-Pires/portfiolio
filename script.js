@@ -9,16 +9,18 @@ function bgScroll() {
     // Get page width and page height
     scrollWidth = document.getElementById("html").offsetWidth - document.getElementById("html").clientWidth;
     scrollHeight = document.getElementById("html").offsetHeight - document.getElementById("html").clientHeight;
+    scrollPosPercentage = 100 * scrollPos / scrollHeight;
 
+    console.log(scrollWidth);
+    console.log(scrollHeight);
+    
     // Scrolls the background vertically if the viewport is widescreen
     if(scrollWidth > scrollHeight){
         scrollPos = window.pageYOffset;
-        scrollPosPercentage = 100 * scrollPos / scrollHeight
         document.body.style.backgroundPositionY = scrollPosPercentage + "%";
     } // Scrolls the background horizontally if the viewport is NOT widescreen
     else{
         scrollPos = window.pageYOffset;
-        scrollPosPercentage = 100 * scrollPos / scrollHeight
         document.body.style.backgroundPositionX = scrollPosPercentage + "%";
     }
 
