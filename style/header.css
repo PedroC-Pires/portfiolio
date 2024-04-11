@@ -25,6 +25,7 @@ header button{
     color: var(--black);
     animation: ease-in-out;
     transition: 300ms;
+    cursor: pointer;
 }
 
 header button:hover{

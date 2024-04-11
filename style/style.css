@@ -39,8 +39,7 @@ body{
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-    animation: ease-in-out;
-    transition: 800ms;
-    transition-delay: 100ms;
+    animation: ease-out;
+    transition: 100ms;
 }
 /* END BODY STYLING */

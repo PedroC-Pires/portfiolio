@@ -14,11 +14,11 @@
     text-align: center;
 }
 
-.container div a:link{
+section a:link{
     color: var(--darkblue);
 }
 
-.container div a:visited{
+section a:visited{
     color: var(--darkblue);
 }
 /* END CONTAINER CLASS STYLING */
@@ -57,6 +57,7 @@ td{
     transition: 1000ms;
     position: relative;
     left: 0;
+    cursor: pointer;
 }
 
 .CV:hover{
