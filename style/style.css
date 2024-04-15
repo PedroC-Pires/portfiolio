@@ -13,6 +13,7 @@
     --bgcolor: #e0e0e0e6;
     --darkblue:  #4577a0;
     --lightblue: #AFC1D0;
+
     --white:     #ffffff;
     --black:     #000000;
 
@@ -39,7 +40,7 @@ body{
     background-attachment: fixed;
     margin: 0;
     padding: 0;
-    animation: ease-out;
-    transition: 700ms;
+    animation: ease-in-out;
+    transition: 700ms !important;
 }
 /* END BODY STYLING */

@@ -41,6 +41,6 @@ body{
     margin: 0;
     padding: 0;
     animation: ease-in-out;
-    transition: 700ms;
+    transition: 700ms !important;
 }
 /* END BODY STYLING */
