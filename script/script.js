@@ -27,7 +27,6 @@ function themeSwitch(){
 if(sessionStorage.getItem("lightTheme") == null){
     sessionStorage.setItem("lightTheme", "");
 }
-
 sessionStorage.setItem("lightTheme", "false");
 
 themeSwitch();

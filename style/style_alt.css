@@ -34,17 +34,16 @@
 
 /* BODY STYLING */
 body{
-    background-image: url(../img/bgdaytime.png) !important;
+    background-image: url(../img/bgdaytime.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
     animation: ease-in-out;
-    transition: 100ms;
+    transition: 500ms;
 }
-body::after{
-    display:none;
-    content: url(../img/bgdaytime.png) url(../img/bgnighttime.png);
+body::before{
+    background-image: url(../img/bgdaytime.png) !important;
 }
 /* END BODY STYLING */
