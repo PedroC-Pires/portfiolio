@@ -37,10 +37,11 @@ body{
     background-image: url(../img/bgnighttime.png) !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     margin: 0;
     padding: 0;
     animation: ease-in-out;
-    transition: 700ms !important;
+    transition: 700ms;
 }
 body:after{
     display:none;

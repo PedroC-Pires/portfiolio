@@ -37,9 +37,14 @@ body{
     background-image: url(../img/bgdaytime.png) !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     margin: 0;
     padding: 0;
     animation: ease-in-out;
-    transition: 700ms !important;
+    transition: 700ms;
+}
+body:after{
+    display:none;
+    content: url(../img/bgdaytime.png) url(../img/bgnighttime.png);
 }
 /* END BODY STYLING */
