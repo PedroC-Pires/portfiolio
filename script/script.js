@@ -3,6 +3,18 @@ let scrollHeight = 0;
 let scrollPosPercentage = 0;
 let htmlTag = document.getElementById("html");
 
+if(sessionStorage.getItem("lightTheme")==null){
+    sessionStorage.setItem("lightTheme", "true");
+}
+
+if(sessionStorage.getItem("lightTheme")=="true"){
+    document.getElementById("themeIcon").src = "./img/moonicon.png";
+    document.getElementById("styleTag").href = "./style/style.css";
+} else{
+    document.getElementById("themeIcon").src = "./img/sunicon.png";
+    document.getElementById("styleTag").href = "./style/style_alt.css";
+}
+
 function bgScroll() {
     scrollHeight = htmlTag.offsetHeight - htmlTag.clientHeight;
     scrollPos = window.pageYOffset;
@@ -24,10 +36,4 @@ function themeSwitch(){
     }
 }
 
-if(sessionStorage.getItem("lightTheme") == null){
-    sessionStorage.setItem("lightTheme", "");
-}
-sessionStorage.setItem("lightTheme", "false");
-
-themeSwitch();
 bgScroll()
