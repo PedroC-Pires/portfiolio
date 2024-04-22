@@ -8,9 +8,11 @@ if(sessionStorage.getItem("lightTheme")==null){
 }
 
 if(sessionStorage.getItem("lightTheme")=="true"){
+    document.getElementById("styleTag").href = "./style/style_alt.css";
     document.getElementById("themeIcon").src = "./img/moonicon.png";
     document.getElementById("styleTag").href = "./style/style.css";
 } else{
+    document.getElementById("styleTag").href = "./style/style.css";
     document.getElementById("themeIcon").src = "./img/sunicon.png";
     document.getElementById("styleTag").href = "./style/style_alt.css";
 }
