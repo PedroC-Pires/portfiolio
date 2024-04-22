@@ -41,9 +41,9 @@ body{
     margin: 0;
     padding: 0;
     animation: ease-in-out;
-    transition: 700ms;
+    transition: 100ms;
 }
-body:after{
+body::after{
     display:none;
     content: url(../img/bgnighttime.png) url(../img/bgdaytime.png);
 }
