@@ -34,7 +34,7 @@
 
 /* BODY STYLING */
 body{
-    background-image: url(../img/bgdaytime.png);
+    background-image: url(../img/bgdaytime.png) !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
