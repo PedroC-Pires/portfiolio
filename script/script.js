@@ -19,8 +19,13 @@ function bgScroll() {
     scrollHeight = htmlTag.offsetHeight - htmlTag.clientHeight;
     scrollPos = window.pageYOffset;
     scrollPosPercentage = 100 * scrollPos / scrollHeight
-    document.body.style.backgroundPositionY = scrollPosPercentage + "%";
-    document.body.style.backgroundPositionX = scrollPosPercentage + "%";
+    if(htmlTag.offsetWidth > htmlTag.clientHeight){
+        document.body.style.backgroundSize = "100% auto"
+        document.body.style.backgroundPositionY = scrollPosPercentage + "%";
+    } else{
+        document.body.style.backgroundSize = "auto 100%"
+        document.body.style.backgroundPositionX = scrollPosPercentage + "%";
+    }
     setTimeout(bgScroll, 1000/60);
 }
 

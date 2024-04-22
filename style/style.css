@@ -35,12 +35,15 @@
 /* BODY STYLING */
 body{
     background-image: url(../img/bgnighttime.png) !important;
-    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
     animation: ease-in-out;
     transition: 700ms !important;
+}
+body:after{
+    display:none;
+    content: url(../img/bgnighttime.png) url(../img/bgdaytime.png);
 }
 /* END BODY STYLING */

@@ -10,7 +10,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     min-width: 200px;
-    flex: 1 0 200px;
+    flex: 1 0 calc(100% / 2);
     text-align: center;
 }
 
