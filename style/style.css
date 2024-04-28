@@ -8,8 +8,8 @@
 
 /* VARIABLES */
 :root {
-    --shadow1: #bebebe56;
-    --shadow2: #ffffff56;
+    --shadow1: #bebebe46;
+    --shadow2: #ffffff46;
     --bgcolor: #e0e0e0e6;
     --darkblue:  #4577a0;
     --lightblue: #AFC1D0;
@@ -32,18 +32,4 @@
 }
 /* END ALL ELEMENT STYLING */
 
-/* BODY STYLING */
-body{
-    background-image: url(../img/bgnighttime.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    animation: ease-in-out;
-    transition: 500ms;
-}
-body::before{
-    background-image: url(../img/bgnighttime.png) !important;
-}
-/* END BODY STYLING */
+
