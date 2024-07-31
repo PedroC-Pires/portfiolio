@@ -3,14 +3,15 @@
 @import url(./main.css);
 @import url(./container.css);
 @import url(./footer.css);
+@import url(./body.css);
 /* END IMPORTS */
 
 
 /* VARIABLES */
 :root {
-    --shadow1: #bebebe46;
-    --shadow2: #ffffff46;
-    --bgcolor: #e0e0e0e6;
+    --shadow1:   #bebebe46;
+    --shadow2:   #ffffff46;
+    --bgcolor:   #e0e0e0e6;
     --darkblue:  #4577a0;
     --lightblue: #AFC1D0;
 
@@ -22,6 +23,7 @@
     --matematica:#6e6cff;
     --natureza:  #00ca0a;
     --tecnico:   #00a2ff;
+    --ppe:       #fffb00;
 }
 /* END VARIABLES */
 
@@ -32,4 +34,6 @@
 }
 /* END ALL ELEMENT STYLING */
 
-
+body{
+    background-image: url("../img/background/bgnighttime1080.png");
+}
