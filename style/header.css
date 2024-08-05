@@ -10,7 +10,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 4rem;
@@ -18,7 +18,7 @@ header{
     padding-bottom: 1rem;
 }
 
-header button{
+header button, .dropdown-content a{
     border: none;
     background: none;
     font-size: 1rem;
@@ -28,43 +28,10 @@ header button{
     cursor: pointer;
 }
 
-header button:hover{
-    letter-spacing: 4px;
-}
-
-header button:nth-child(1):hover{
+header button:hover, .dropdown-content a:hover{
+    letter-spacing: 2px;
     color: var(--black);
-    font-weight: 600;
-}
-
-header button:nth-child(2):hover{
-    color: var(--humanas);
-    font-weight: 600;
-}
-
-header button:nth-child(3):hover{
-    color: var(--linguagens);
-    font-weight: 600;
-}
-
-header button:nth-child(4):hover{
-    color: var(--matematica);
-    font-weight: 600;
-}
-
-header button:nth-child(5):hover{
-    color: var(--natureza);
-    font-weight: 600;
-}
-
-header button:nth-child(6):hover{
-    color: var(--tecnico);
-    font-weight: 600;
-}
-
-header button:nth-child(7):hover{
-    color: var(--ppe);
-    font-weight: 600;
+    font-weight: 700;
 }
 
 #themeIcon{

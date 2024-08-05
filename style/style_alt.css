@@ -4,6 +4,7 @@
 @import url(./container.css);
 @import url(./footer.css);
 @import url(./body.css);
+@import url(./dropdown.css);
 /* END IMPORTS */
 
 
@@ -36,4 +37,8 @@
 
 body{
     background-image: url("../img/background/bgdaytime1080.png");
+}
+
+body::before{
+    background-image: url("../img/background/bgnighttime1080.png");
 }

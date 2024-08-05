@@ -37,4 +37,16 @@ function themeSwitch(){
     }
 }
 
+function checkRes(){
+    if(htmlTag.clientWidth > htmlTag.clientHeight){
+        document.getElementsByTagName('header')[0].style.flexDirection = "row";
+        document.getElementsByTagName('header')[0].style.alignItems = "center"
+        } else {
+        document.getElementsByTagName('header')[0].style.flexDirection = "column";
+        document.getElementsByTagName('header')[0].style.alignItems = "center"
+    } 
+    setTimeout(checkRes, 1000/5);
+}
+
 bgScroll();
+checkRes();
