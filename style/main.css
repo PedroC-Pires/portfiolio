@@ -17,5 +17,6 @@ section{
                 -20px -20px 60px var(--shadow2);
     margin-bottom: 2rem;
     padding: 3rem;
+    transition: 200ms;
 }
 /* END SECTION STYLING STYLING */

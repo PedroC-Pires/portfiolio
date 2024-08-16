@@ -16,6 +16,7 @@ header{
     margin-bottom: 4rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    transition: 200ms;
 }
 
 header button, .dropdown-content a{
