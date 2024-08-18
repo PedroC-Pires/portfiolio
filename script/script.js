@@ -45,7 +45,7 @@ function checkRes(){
         document.getElementsByTagName('header')[0].style.flexDirection = "column";
         document.getElementsByTagName('header')[0].style.alignItems = "center"
     } 
-    setTimeout(checkRes, 1000/5);
+    setTimeout(checkRes, 1000/1);
 }
 
 bgScroll();
