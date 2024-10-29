@@ -51,23 +51,30 @@ td{
 /* END TABLE STYLING */
 
 
-/* CV STYLING */
-.CV{
+/* PREVIEW STYLING */
+.preview{
     width: 40%;
     border-radius: 12px;
     animation: ease-in-out;
-    transition: 1000ms;
-    position: relative;
-    left: 0;
+    transition: 700ms;
+    margin: auto;
     cursor: pointer;
 }
 
-.CV:hover{
+.preview:hover{
     width: 80%;
-    left: 10%;
+    border-radius: calc(12px * 1.4);
 }
 /* END CV STYLING */
 
 section p, section h1, section h3{
     color: var(--black);
+}
+
+.preview{
+    margin: auto;
+    max-width: 100%;
+    width: 50%;
+    height: fit-content;
+    border-radius: 12px;
 }
