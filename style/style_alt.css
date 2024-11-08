@@ -12,7 +12,7 @@
 :root { 
     --shadow1:   #41414156;
     --shadow2:   #00000056;
-    --bgcolor:   #333333e6;
+    --bgcolor:   #333333d8;
     --darkblue:  #AFC1D0;
     --lightblue: #4577a0;
     
@@ -36,5 +36,5 @@
 /* END ALL ELEMENT STYLING */
 
 body{
-    background-image: url("../img/background/bgdaytime1080.png");
+    background-image: url("../img/background/bg_daytime.png");
 }
