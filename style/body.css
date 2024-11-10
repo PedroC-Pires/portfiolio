@@ -6,6 +6,6 @@ body{
     margin: 0;
     padding: 0;
     animation: ease-in-out;
-    transition: 500ms;
+    transition: 1000ms;
 }
 /* END BODY STYLING */
